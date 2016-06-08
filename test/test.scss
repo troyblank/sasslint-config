@@ -1,0 +1,45 @@
+$color-black: #000;
+$color-red: #f00;
+
+body {
+    text-align: center;
+
+    > #container {
+        width: 500px;
+        margin: 0 auto;
+        text-align: left;
+    }
+}
+
+
+header {
+    h1 {
+        margin-bottom: 26px;
+        font-size: 26px;
+    }
+}
+
+div {
+    &[role='main'] {
+        margin-bottom: 25px;
+        padding: $border-radius;
+        border: 3px solid $color2;
+
+        ul {
+            padding-top: 14px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: $color-black;
+        }
+    }
+}
+
+%button {
+    border: 1px solid $color-red;
+}
+
+button {
+    @extend %button;
+}
