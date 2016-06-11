@@ -17,4 +17,4 @@ configFile: 'node_modules/@troyblank/sasslint-config-troyblank/.sass-lint.yml'
 
 ### Test
 
-    npm run lint
+    npm test
