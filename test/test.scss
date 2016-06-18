@@ -1,6 +1,15 @@
 $color-black: #000;
 $color-red: #f00;
 
+
+* {
+    box-sizing: border-box;
+
+    &:before, &:after {
+        box-sizing: border-box;
+    }
+}
+
 body {
     text-align: center;
 
@@ -33,6 +42,10 @@ div {
             margin-bottom: 12px;
             color: $color-black;
         }
+    }
+
+    &:after {
+        content: 'notice only one colon.';
     }
 }
 
