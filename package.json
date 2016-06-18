@@ -1,6 +1,6 @@
 {
     "name": "@troyblank/sasslint-config-troyblank",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Shared sass rules.",
     "repository": {
         "type": "git",
