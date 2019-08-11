@@ -1,6 +1,6 @@
 {
     "name": "@troyblank/sasslint-config-troyblank",
-    "version": "0.5.0",
+    "version": "1.0.0",
     "description": "Shared sass rules.",
     "repository": {
         "type": "git",
@@ -12,7 +12,7 @@
     "scripts": {
         "test": "sass-lint -c ./.sass-lint.yml ./test/test.scss -v -q"
     },
-    "devDependencies": {
+    "dependencies": {
         "sass-lint": "1.13.1"
     }
 }
