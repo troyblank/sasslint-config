@@ -1,7 +1,9 @@
 rules:
     border-zero: 2
     brace-style: 2
-    class-name-format: 2
+    class-name-format:
+        - 2
+        - convention: hyphenatedbem
     clean-import-paths: 2
     empty-args: 2
     empty-line-between-blocks: 2
